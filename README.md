@@ -1,0 +1,4 @@
+This a a Hotel Management Winforms C# project.
+The rooms are added automatically from a csv file when the application starts.
+The user can add reservations to the hotel management system - by selecting the number of guest from a ComboBox, choosing a room from a ListBox, selecting a Check-In date and a Check-Out date. Numerous validations are done here. Obviously the check in date can't exceed the check out one, the number of guests can't exceed the number of beds in the room. Rooms can also be sorted in the listbox via the number of beds (this with the help of the IComparable interface).
+The information which is shown via a DataGridView can be serialized and deserialized in XML, imported/exported from/to SQL db files and also it can be printed to a pdf / by an actual printer.
